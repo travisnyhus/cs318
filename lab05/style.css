@@ -1,0 +1,28 @@
+body {
+    background-color: #AA7239;
+    width: 800px; 
+}
+h1 {
+    background-color: #FFE150;
+}
+h2{
+    background-color: #FF5950;
+}
+h3 {
+    background-color: #FF8900;
+}
+p {
+    background-color: #E8A95F;
+}
+figcaption {
+    font-style: italic;
+    color: #736E68;
+}
+figure {
+    width: 600px;
+    margin: auto;
+}
+img {
+    
+    width: 600px;
+}
