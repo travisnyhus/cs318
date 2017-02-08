@@ -1,0 +1,14 @@
+h3{
+    font-size: 24px;
+    color: azure;
+    font-family: 'Fjalla One', sans-serif;
+    text-shadow: 4px 5px 5px #576e93;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+body{
+    background-color: darkgrey;
+}
+.answer{
+    font-family: 'Ubuntu', sans-serif;
+}
