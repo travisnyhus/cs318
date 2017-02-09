@@ -1,4 +1,4 @@
-.square{
+.square {
     width: 100px;
     height: 100px;
     background-color: orange;
@@ -7,6 +7,6 @@
     border-color: transparent;
     display: inline-block;
 }
-#highlighted{
+#highlighted {
     border-color: black;
 }
