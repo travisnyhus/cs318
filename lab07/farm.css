@@ -1,0 +1,19 @@
+body{
+    background-image: url(farm.jpg);
+    background-repeat: no-repeat;
+    text-align: right;
+    color: burlywood;
+    background-color: blanchedalmond;
+    margin-top: 540px; 
+}
+h1{
+    color: crimson;
+}
+img {
+    margin-right: 1700px;
+}
+div{
+    background-image: url(cow.png);
+    background-repeat: no-repeat;
+    height: 300px; 
+}
