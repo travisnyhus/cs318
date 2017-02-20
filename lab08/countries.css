@@ -1,0 +1,41 @@
+body {
+    background-color: azure;
+    box-sizing: border-box;
+}
+div {
+    display: inline-block;
+}
+.stamp {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-style: dashed; 
+    border-color: darkolivegreen;
+    border-width: 4px;
+    box-shadow: 10px 5px 25px black;
+}
+
+#cameroon {
+    background-image: url(cameroonflag.gif), url(cameroon.jpg);
+    background-position: top right, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100px, 800px;  
+}
+#panama {
+    background-image: url(panamaflag.gif), url(panama.jpg);
+    background-position: top right, center;
+    background-repeat: no-repeat;
+    background-size: 100px, 800px; 
+}
+#costarica {
+    background-image: url(costaricaflag.gif), url(costarica.jpg);
+    background-position: top right, center;
+    background-repeat: no-repeat; 
+    background-size: 100px, 800px; 
+}
+#thailand {
+    background-image: url(thailandflag.gif), url(thailand.jpg);
+    background-position: top right, center;
+    background-repeat: no-repeat; 
+    background-size: 100px, 800px; 
+}
