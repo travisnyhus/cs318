@@ -1,4 +1,22 @@
 body {
     box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+.left {
+    background-color: darksalmon;
+    width: 90%;
+    background-image: url(patrick.jpeg);
+}
+.right {
+    background-color: darkseagreen; 
+    margin-left: auto;
+    max-width: 90%;
+}
+.blurb {
+    border: 1px solid #000033;
+    box-shadow: 5px 5px 5px #696969;
+    min-height: 202px;
+    min-width: 400px;
+    
     
 }

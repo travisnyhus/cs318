@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0px;
+}
+.left {
+    background-image: url(patrick.png);
+    background-color: darksalmon;
+    padding-right: 85px; 
+    padding-left: 180px;
+    margin-right: auto;
+    padding-top: 10px; 
+    border-top-right-radius: 90px; 
+    border-bottom-right-radius: 90px; 
+}
+.right {
+    background-image: url(spongebob.png);
+    background-position: right;
+    background-color: darkseagreen; 
+    margin-left: auto;
+    padding-right: 150px;
+    padding-left: 85px; 
+    padding-top: 10px;
+    border-top-left-radius: 90px; 
+    border-bottom-left-radius: 90px;
+}
+.blurb {
+    width: 90%; 
+    border: 1px solid #000033;
+    box-shadow: 5px 5px 5px #696969;
+    min-height: 202px;
+    min-width: 400px;
+    background-repeat: no-repeat;
+    background-size: auto 200px;
+}
+h1 {
+    background-image: linear-gradient(to right, darksalmon, darkseagreen);
+    text-align: center;
+    color: darksalmon;
+    margin-top: 0px;
+    padding-bottom: 10px; 
+    box-shadow: inset 0px -5px 10px white;
+}
+.h1color {
+    color: darkseagreen;
+}
