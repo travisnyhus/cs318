@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;   
+}
+
+body {
+    background-image: url(cork.jpg);   
+}
+
+div {
+    display: inline;
+}
+
+.photo {
+    border: solid;
+    border-color: #FFFFFF;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 50px; 
+    border-left-width: 10px;
+    position: relative;
+}
+
+.pin {
+    width: 5%;
+    position: absolute;
+    left: 0px; 
+    right: 0px; 
+    top: 0px;
+    margin-right: auto; 
+    margin-left: auto;
+}
+.label {
+    position: absolute;
+    font-family: marker;
+    font-size: 25px;
+}
+
+@font-face {
+    font-family: marker;
+    src: url(font.ttf);
+}
