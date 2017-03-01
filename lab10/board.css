@@ -6,11 +6,9 @@ body {
     background-image: url(cork.jpg);   
 }
 
-div {
-    display: inline;
-}
 
 .photo {
+    display: inline-block;
     border: solid;
     border-color: #FFFFFF;
     border-top-width: 10px;
@@ -18,10 +16,12 @@ div {
     border-bottom-width: 50px; 
     border-left-width: 10px;
     position: relative;
+    box-shadow: 5px 5px 5px;
+    margin-left: 50px;
 }
 
 .pin {
-    width: 5%;
+    width: 20%;
     position: absolute;
     left: 0px; 
     right: 0px; 
@@ -32,10 +32,31 @@ div {
 .label {
     position: absolute;
     font-family: marker;
-    font-size: 25px;
+    font-size: 45px;
+    left: 0; 
+    right: 0;
+    text-align: center;
 }
 
 @font-face {
     font-family: marker;
     src: url(font.ttf);
+}
+
+#pig {
+    top: 15px;
+    left: 25px; 
+    transform: rotate(5deg); 
+}
+
+#duck {
+    top: 25px;
+    left: 12px; 
+    transform: rotate(-15deg); 
+}
+
+#fox {
+    top: 2px;
+    left: 10px; 
+    transform: rotate(-2deg); 
 }
