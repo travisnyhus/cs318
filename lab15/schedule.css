@@ -1,0 +1,17 @@
+table {
+    border-spacing: 5px 10px;
+}
+
+.collapse {
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+}
+
+th {
+    color: crimson;
+}

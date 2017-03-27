@@ -1,0 +1,26 @@
+table {
+    border-spacing: 5px 10px;
+}
+
+.collapse {
+    border-collapse: collapse;
+}
+
+td {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    color: coral;
+}
+
+.head {
+    color: darkolivegreen;
+}
+
+.rest{
+    background-color: beige;
+    font-weight: bold;
+    color: coral;
+}
