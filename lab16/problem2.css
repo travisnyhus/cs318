@@ -1,0 +1,56 @@
+header {
+    background-color:#262626 ;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
+.logo {
+    float: right;
+    margin: 10px;
+}
+
+body{
+    margin: 0;
+}
+main {
+    background-color: #FF9E33;
+    background-image: linear-gradient(to bottom, #FFFFFF, #FF9E33);
+    background-repeat: no-repeat;
+    
+}
+.seal {
+  display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box1{
+    float: right;
+    width: 160px;
+    height: 110px;
+    border-style: solid;
+    margin: 10px;
+   
+    
+}
+
+.insidebox1 {
+     float: right;
+    width: 150px;
+    height: 100px;
+    background-color: pink;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.box2 {
+    float: left;
+       width: 150px;
+    height: 100px;
+    background-color: pink;
+    border-style: solid;
+    margin: 25px;
+}
+@media (max-width: 45em){
+    
+}
