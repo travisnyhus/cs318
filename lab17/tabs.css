@@ -1,0 +1,54 @@
+.tabbutton {
+    display: inline-block;
+    background-color: deepskyblue;
+    height: 25px;
+    width: 100px;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.tabbutton:focus {
+    background-color: blue;
+}
+
+#tabview0 {
+    background-color: deepskyblue;
+    display: block;
+    
+}
+#tabparent {
+    position: relative;
+    display:block;
+  
+}
+.tabview {
+    top: 30px;
+    left: 0px;
+    background-color: blue;
+    color: white;
+    display:none;
+    position:  absolute;
+  
+  
+}
+
+
+
+#tab1:focus ~ #button1 {
+    display: block;
+    width: 308px;
+    height: 25px;
+}
+#tab2:focus ~ #button2 {
+    display: block;
+    width: 308px;
+    height: 25px;
+}
+#tab3:focus ~ #button3 {
+    display: block;
+    width: 308px;
+    height: 25px;
+}
