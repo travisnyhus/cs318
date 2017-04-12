@@ -1,0 +1,33 @@
+* {
+    font-family: sans-serif;
+}
+form {
+    background-color: darksalmon;
+    width: 30em;
+    height: 40em;
+    border-radius: 50px; 
+}
+h1 {
+    text-align: center;
+    font-size: 18pt;
+    padding: 25px;
+    color: white;
+}
+ol {
+    margin: 15px;
+    font-size: 14pt;
+}
+li {
+    margin: 15px; 
+}
+textarea {
+    
+}
+.submit {
+    margin-left: 60px;
+    padding: 10px;
+    margin-top: 10px
+}
+.middlename {
+    width: 25em;
+}

@@ -1,0 +1,46 @@
+*{
+    font-family: sans-serif;
+   
+}
+form {
+    background-color: skyblue;
+    width: 30em;
+    height: 27em;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 3em;
+}
+#left {
+    width: 30%;
+    float: left;
+    clear:both;
+    padding: 5px;
+    font-size: 14pt;
+    text-align: right;
+}
+
+.options {
+    margin: 5px;
+    padding: 5px;
+}
+
+input[type="text"]{
+    width: 21em;
+}
+select{
+    width: 21em;
+}
+input[type="range"]{
+    width: 21em;
+}
+input[type="text"]{
+    width: 21em;
+}
+
+.submit {
+    margin-top: 25px; 
+    padding: 10px; 
+}
+h1{
+    text-align: center;
+}

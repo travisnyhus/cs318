@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>  Ice Cream Form </title>
+    <link type="text/css" rel="stylesheet" href="icecream.css">
+</head>
+<body>
+  
+    <div>
+        <form action="https://formspree.io/thaoa@uwec.edu" method="POST">
+            <h1>Chillax Order Form</h1>
+            <span id="left">Who are you?</span><input type="text" name="name" id="name" class="options">
+               <br>
+            <span id="left">What Flavor?</span> <select name="flavor" id="flavor" class="options" multiple="4">
+                <option>Chocolate</option>
+                <option>Strawberry</option>
+                <option>Vanilla</option>
+                <option>Mint Chocolate Chip</option>
+            </select>
+       <br>
+            <span id="left">In What?</span><select name="container" id="container" class="options" multiple="3">
+                <option>Waffle</option>
+                <option>Sugar</option>
+                <option>Dish</option>
+            </select>
+            <br>
+            <span id="left">Sprinkles?</span> <input type="checkbox" name="sprinkles" class="options">
+            <br>
+            <span id="left">How messy are you?</span><input type="range" name="slider" min="0" max="3"class="options">
+            <input type="submit" value="order" class="submit">
+        </form>
+  
+    </div>
+</body>
+</html>
