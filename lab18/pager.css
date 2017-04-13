@@ -4,15 +4,15 @@ body {
 
 #container{
   
-    height: 100em;
+    height: 1000px;
     position: relative;
     
 }
 .page {
  
-    height: 100em;
-    width: 75em;
-    background-size: 100em;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
     position: absolute;
     display: none;
     background-repeat: no-repeat;
@@ -32,7 +32,8 @@ input[type="radio"]:checked + .page {
 #controls {
     left: 50%;
     transform: translate(-50%,0 );
-    position: relative;
+    bottom: 0;
+    position:absolute;
     user-select: none;
   
 }
@@ -46,6 +47,10 @@ input[type="radio"]{
     display: none;
 }
 
-#show1:checked ~ #controls label:nth-child (1) {
+#show1:checked ~ #controls label:nth-child(1) {
+    color: black;
+}
+
+#show2:checked ~ #controls label:nth-child(2) {
     color: black;
 }
