@@ -1,0 +1,23 @@
+body{
+    color: darkgray;
+    font-size: 14pt;
+    background-image: url(https://docs.gimp.org/en/images/filters/examples/render-checkerboard1.jpg);
+}
+.form {
+    background-color: lightgray;
+    margin: 50px; 
+    border-radius: 25px;
+    padding: 50px;
+    width: 600px;
+}
+.text {
+    width: 25px;
+    background-color: blue;
+    color: red;
+}
+
+.call {
+    width: 100px;
+    padding: 15px;
+    font-size: 20pt;
+}

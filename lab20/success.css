@@ -1,0 +1,17 @@
+.call {
+    position: absolute;
+    left: 14.5em;
+    top: 10em;
+    width: 295px;
+    
+}
+.accept {
+    position: absolute;
+    width: 275px;
+    left: 245px;
+    top: 400px;
+   
+}
+.iphone {
+    width: 750px;
+}
