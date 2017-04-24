@@ -1,0 +1,133 @@
+* {
+    font-family: sans-serif;
+}
+header {
+    background-color: #000cb2;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(tv10logo.png);
+    background-repeat: no-repeat;
+    padding: 5px 0px 5px 0px;
+    background-size:150px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0;
+    text-align: center;
+}
+#title {
+     font-size: 50pt;
+    margin: 0;
+}
+body {
+     background-color: #FFFFFF;
+    margin-top: 0;
+}
+nav {
+    background-color: #ffce12;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 1px 0px;
+}
+ul {
+    list-style: none;
+  
+}
+nav li {
+    display: inline;
+    border: 2px solid black;
+    font-size: 16pt;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0px 68px;
+}
+ nav a:hover {
+    color: blue;
+    
+}
+li:hover {
+    transform: scale(1.1);
+}
+footer li{
+    display: inline-block;
+    padding-right: 150px;
+    padding-left: 20px; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer {
+    background-color: #1222ff;
+    width: 95%;
+    margin-left: auto;
+    margin-right:auto;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+main {
+    width: 95%;
+    margin-left: 2.5%;
+    font-size: 20pt;
+    display: inline;
+}
+main img {
+    margin: 10px 0px 0px 150px;
+}
+.icon {
+    width:35px;
+    color: white;
+}
+@media (max-width: 35em){ 
+    header {background-image: url();}
+     main {
+        position: static;
+        clear: both;
+        float: none;
+         width: 100%;
+    }
+    
+    nav {
+        width: 100%; 
+        height: auto;
+    }
+    
+    li {
+         display: inline;
+    }
+    
+    main img {
+        width: 100%;
+        margin: 0;
+    }
+  li:hover {
+    transform: scale(1.0);
+}
+    footer li{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+    .icon {
+    display: none;
+    color: white;
+}
+    nav li {
+    display: block;
+    font-size: 12pt;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0px 6px;
+}
+    *{
+        font-size: 12pt;
+    }
+      main img:hover {
+    transform: scale(1.05);
+}
