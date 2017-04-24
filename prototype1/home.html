@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <title>TV-10 Home</title>
         <link rel="stylesheet" href="home.css" type="text/css">
+        <link rel="stylesheet" href="pagelayout.css" type="text/css">
         <link rel="icon" href="tv10logo.png" type="image/png" >
     </head>
     <body><div>
@@ -14,11 +15,11 @@
         </header> 
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="shows.html">Shows</a></li>
-                <li><a href="requests.html">Requests</a></li>
+                <div class="navbar"><li><a href="home.html">Home</a></li></div>
+                   <div class="navbar"><li><a href="about.html">About</a></li></div>
+                    <div class="navbar"><li><a href="contact.html">Contact</a></li></div>
+                  <div class="navbar"><li><a href="shows.html">Shows</a></li></div>
+                   <div class="navbar"><li><a href="schedule.html">Schedule</a></li></div>
             </ul>
         </nav>
     <main>
@@ -27,7 +28,7 @@
         <div class="student">
                <img src="welcome.jpg" width="300px" id="part1"><h2>Student Run</h2>
         </div>
-        <div class="OwnShows">
+        <div class="pic" id="ownshows">
                <img src="handful3.png" width="300px" id="part2">
         <span id="shows"><h2>Original Shows</h2>
             </span></div>
@@ -38,23 +39,23 @@
         </div>
         
         </main>
+        
         <footer>
             <ul>
-                <li><a href="home.html"><img src="home.png" class="icon" > Home </a></li>
+                <div class="icon"><li><a href="home.html"><img src="home.png" width="50px"> Home </a></li></div>
               
-                <li><a href="about.html"><img src="about.png" class="icon"> About </a></li>
+                <div class="icon"><li><a href="about.html"><img src="about.png" width="50px"> About </a></li></div>
             
-                <li><a href="requests.html"><img src="request.png" class="icon" > Requests</a></li>
+                <div class="icon"><li><a href="schedule.html"><img src="schedule.png" width="50px"> Schedule</a></li></div>
               
-                <li><a href="https://twitter.com/UWECTV10"> <img src="twitter.png" class="icon" > Twitter</a></li>
+                <div class="icon"><li><a href="https://twitter.com/UWECTV10"> <img src="twitter.png" width="50px"> Twitter</a></li></div>
             <br>
-                <li><a href="contact.html"><img src="contact.png" class="icon" > Contact</a></li>
+                <div class="icon"><li><a href="contact.html"><img src="contact.png" width="50px"> Contact</a></li></div>
             
-                <li><a href="shows.html"><img src="shows.png" class="icon"> Shows</a></li>
+               <div class="icon"> <li><a href="shows.html"><img src="shows.png" width="50px"> Shows</a></li></div>
             
-                <li><a href="https://www.youtube.com/user/uwecTV10"> <img src="youtube.png" class="icon"> Youtube </a></li>
-              
-                <li><a href="https://www.facebook.com/UWECTV10"> <img src="facebook.png" class="icon"> Facebook </a></li>
+                <div class="icon"><li><a href="https://www.youtube.com/user/uwecTV10"> <img src="youtube.png" width="50px"> Youtube </a></li></div>
+                    <div class="icon"> <li><a href="https://www.facebook.com/UWECTV10"> <img src="facebook.png" width="50px"> Facebook </a></li></div>
             </ul>
          
         </footer>
