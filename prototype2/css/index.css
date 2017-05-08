@@ -1,0 +1,41 @@
+main {
+    width: 85%;
+    padding-top: 5%;
+   margin-left:10%;
+    font-size: 20pt;
+    display: inline-block; 
+}
+
+#part1 {
+    float: right;
+    position: relative;
+    margin-right: 20%;
+}
+
+#shows {float: right; margin-top: 50px;
+}
+
+#part3 {
+    float: right;
+    clear: both;
+    margin-right: 20%;
+}
+
+#part2 {clear: both;}
+
+#ownShows {clear: both; 
+            margin-right: 20%;}
+
+
+@media (max-width: 35em){ 
+
+    
+    main img {
+        width: 100%;margin: 0:
+    }
+    
+    
+    main {
+        display: block;float: none;
+    }
+}
