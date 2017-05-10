@@ -1,31 +1,61 @@
-main {
-    width: 85%;
-    padding-top: 5%;
-   margin-left:10%;
-    font-size: 20pt;
-    display: inline-block; 
-}
-
-#part1 {
-    float: right;
+#channel {font-family: sans-serif;font-size:20pt; color: blue;margin: 5%;}
+#container{
+  
+    height: 1000px;
     position: relative;
-    margin-right: 20%;
+    
+}
+.page {
+ 
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    position: absolute;
+    display: none;
+    background-repeat: no-repeat;
+}
+#page1 {
+    background-image: url(../images/welcome.jpg);
+    width: 90%;
+    margin-left: 5%;
+}
+#page2 {
+    background-image:url("../images/CollegeCooking.jpg");
+    width: 90%;
+    margin-left: 5%;
+}
+#page3 {
+    background-image: url(../images/broadcasting.png);
+    width:90%;
+    margin-left: 5%;
+}
+#page4 {  background-image: url(../images/wingfued.png);
+    width:90%;
+    margin-left: 5%;}
+input[type="radio"]:checked + .page {
+    display: block;
+}
+#controls {
+    left: 50%;
+    transform: translate(-50%,0 );
+    bottom: 15%;
+    position:absolute;
+    user-select: none;
+  
+}
+label {
+    font-size: 50pt;
+    color: blue;
+    cursor: pointer;
 }
 
-#shows {float: right; margin-top: 50px;
+input[type="radio"]{
+    display: none;
 }
 
-#part3 {
-    float: right;
-    clear: both;
-    margin-right: 20%;
+#show1:checked~#controls label:nth-child(1),#show2:checked ~ #controls label:nth-child(2), #show3:checked ~ #controls label:nth-child(3),#show4:checked~#controls label:nth-child(4){
+    color: black;
 }
-
-#part2 {clear: both;}
-
-#ownShows {clear: both; 
-            margin-right: 20%;}
-
 
 @media (max-width: 35em){ 
 
@@ -33,9 +63,11 @@ main {
     main img {
         width: 100%;margin: 0:
     }
-    
-    
-    main {
-        display: block;float: none;
-    }
+    #controls {
+    left: 50%;
+    transform: translate(-50%,0 );
+    bottom: 75%;
 }
+  
+} 
+   

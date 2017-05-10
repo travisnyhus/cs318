@@ -8,11 +8,14 @@ main {
     width: 95%;
     margin-left: auto;
     margin-right:auto;
-    height: 300px;
+    height: auto;
+}
+footer {
+    clear: both;margin-top: 15px;
 }
 form {display: block; width: 50%; margin: 50px;}
 .contact {float: right; margin-right: 10px; width: 40%;}
-#content {width: 60%; margin-left: 15px;}
+#content {width: 60%; margin-left: 15px;height: 100%;}
 @media (max-width: 35em){ 
     
      main {

@@ -23,8 +23,11 @@ main {
 
   
     
-    main img {
+   .pic {
         width: 100%;
+       margin: 0;
+       padding-bottom: 10px;
     }
+}
 
     
