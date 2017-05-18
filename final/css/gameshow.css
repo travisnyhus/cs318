@@ -19,7 +19,7 @@ float: left;}
 
 
 
-@media (max-width: 35em){ 
+@media (max-width: 45em){ 
     
      main {
         position: static;

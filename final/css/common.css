@@ -42,12 +42,13 @@ nav li {
     margin-left: 0;
 }
 .navbar {width: 15%;display: inline-block;text-align: center;margin-left: 3%}
- nav a:hover {
+ 
+nav a:hover {
     color: blue;
     
 }
 li:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 footer li{
     display: inline-block;
@@ -84,7 +85,7 @@ main {font-family: serif;}
     margin: 15px 0px 5px 0px;
 }
 
-@media (max-width: 35em){ 
+@media (max-width: 45em){ 
     header {background-image: url(); width: 100%;}
     footer {display: none;}
     nav {
@@ -92,20 +93,16 @@ main {font-family: serif;}
         height: auto;
     }
     
-    
-  li:hover {
-    transform: scale(1.05);
-}
     footer li{
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    
 }
     .icon {
     display: block;width: 100%;padding-top: 5px;
 }
 .navbar {
     display:block;border-style: none;}
+    
     nav li {border-style: none;}
   
 }

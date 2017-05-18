@@ -6,7 +6,7 @@ main {
 .logo {width:49%;display:inline-block;text-align: center;}
 main img:hover {transform: scale(1.05);}
 
-@media (max-width: 35em){ 
+@media (max-width: 45em){ 
      main {
          width: 100%;
     }

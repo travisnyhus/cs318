@@ -14,9 +14,11 @@ footer {
     clear: both;margin-top: 15px;
 }
 form {display: block; width: 50%; margin: 50px;}
-.contact {float: right; margin-right: 10px; width: 40%;}
+
+.contact {float: right; margin-right: 10px; width: 40%;font-size:13pt;}
+
 #content {width: 60%; margin-left: 15px;height: 100%;}
-@media (max-width: 35em){ 
+@media (max-width: 45em){ 
     
      main {
         position: static;
