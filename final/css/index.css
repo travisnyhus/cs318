@@ -38,7 +38,7 @@ input[type="radio"]:checked + .page {
 #controls {
     left: 50%;
     transform: translate(-50%,0 );
-    bottom: 0%;
+    bottom: 1%;
     position:absolute;
     user-select: none;
   
