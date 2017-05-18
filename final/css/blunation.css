@@ -1,0 +1,33 @@
+
+#hosts {
+    float: right;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+main {
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+#video {
+    float: left;}
+.description {width: 50%;margin: 10px;font-size: 14pt;}
+
+@media (max-width: 35em){ 
+    
+     main {
+        position: relative;
+        clear: both;
+        float: none;
+         width: 100%;
+         height: auto;
+    }
+    
+    main img {
+        width: 100%;
+    }
+    #video {display: none;}
+    
+}

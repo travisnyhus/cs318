@@ -1,0 +1,44 @@
+
+.pic {
+    float: right;
+    width: 400px;
+    margin-right: 50px;
+}
+main {
+    width: 95%;
+    margin-left: auto;
+    margin-right:auto;
+    height: auto;
+}
+footer {
+    clear: both;margin-top: 15px;
+}
+form {display: block; width: 50%; margin: 50px;}
+.contact {float: right; margin-right: 10px; width: 40%;}
+#content {width: 60%; margin-left: 15px;height: 100%;}
+@media (max-width: 35em){ 
+    
+     main {
+        position: static;
+        clear: both;
+        float: none;
+         width: 100%;
+         height: 1000px;
+         display: block;
+    }
+    
+    
+    main img {
+        width: 100%;
+    }
+  
+    
+    form {
+        margin-left: 10px;padding-top: 15px;
+    }
+    .contact { 
+        margin-left: 20px; width: 90%; margin-bottom: 20px;
+    }
+textarea {width: 150%;
+    }
+}

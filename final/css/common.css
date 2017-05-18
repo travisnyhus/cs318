@@ -1,0 +1,111 @@
+
+header {
+    background-color: #000cb2;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("../images/tv10logo.png");
+    background-repeat: no-repeat;
+    padding: 0% 0% 3% 0%;
+    background-size:15%;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+#title {
+     font-size: 50pt;
+    margin: 0;
+}
+body {
+     background-color: #FFFFFF;
+    margin-top: 0;
+}
+nav {
+    background-color: #ffce12;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 1px 0px;
+    font-family: sans-serif;
+}
+ul {
+    list-style: none;
+  
+}
+nav li {
+    
+    font-size: 16pt;
+    margin-right: 0;
+    margin-left: 0;
+}
+.navbar {width: 15%;display: inline-block;text-align: center;margin-left: 3%}
+ nav a:hover {
+    color: blue;
+    
+}
+li:hover {
+    transform: scale(1.2);
+}
+footer li{
+    display: inline-block;
+    padding-right: 150px;
+    padding-left: 20px; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer {
+    background-color: #1222ff;
+    width: 95%;
+    margin-left: auto;
+    margin-right:auto;
+    padding-bottom: 10px;
+    margin-top: 0;
+    clear: both;
+    font-family: sans-serif;
+}
+.icon {
+    width:12%;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+main {font-family: serif;}
+
+#hosts img {
+    margin: 15px 0px 5px 0px;
+}
+
+@media (max-width: 35em){ 
+    header {background-image: url(); width: 100%;}
+    footer {display: none;}
+    nav {
+        width: 100%; 
+        height: auto;
+    }
+    
+    
+  li:hover {
+    transform: scale(1.05);
+}
+    footer li{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+    .icon {
+    display: block;width: 100%;padding-top: 5px;
+}
+.navbar {
+    display:block;border-style: none;}
+    nav li {border-style: none;}
+  
+}
