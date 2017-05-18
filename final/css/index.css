@@ -21,6 +21,7 @@
 }
 #page2 {
     background-image:url("../images/CollegeCooking.jpg");
+    background-size: 90%;
     width: 90%;
     margin-left: 5%;
 }
@@ -66,7 +67,7 @@ input[type="radio"]{
     #controls {
     left: 50%;
     transform: translate(-50%,0 );
-    bottom: 80%;
+    top: 15%;
 }
   
 } 
